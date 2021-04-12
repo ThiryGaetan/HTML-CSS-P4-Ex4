@@ -1,0 +1,121 @@
+#container {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 10vh 25vh repeat(6, 10vh);
+    background-color: #BFBFBF;
+    border: 4px solid #C1BFC0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    background-color: #D9D9D9;
+    border: 1px solid #BFBFBF;
+}
+.number {
+    background-color: #F2F2F2;
+    font-weight: bold;
+    font-size: 20px;
+}
+#settings {
+    grid-area: 1 / 1 / 1 / 1;
+    justify-content: flex-start;
+    padding-left: 20%;
+    font-size: 30px;
+    font-weight: 900px;
+}
+#header {
+    grid-area: 1 / 2 / 1 / 4;
+    justify-content: flex-start;
+    font-size: 25px;
+    padding-top: 2%;
+}
+#history {
+    grid-area: 1 / 4;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10%;
+}
+#result {
+    grid-area: 2 / 1 / 2 / 5;
+    font-size: 50px;
+    font-weight: 600;
+    justify-content: flex-end;
+    padding-right: 10%;
+}
+#percent {
+    grid-area: 3 / 1;
+}
+#ce {
+    grid-area: 3 / 2;
+}
+#c {
+    grid-area: 3 / 3;
+}
+#delete {
+    grid-area: 3 / 4;
+}
+#inverse {
+    grid-area: 4 / 1;
+}
+#power {
+    grid-area: 4 / 2;
+}
+#root {
+    grid-area: 4 / 3;
+}
+#divide {
+    grid-area: 4 / 4;
+}
+#num7 {
+    grid-area: 5 / 1;
+}
+#num8 {
+    grid-area: 5 / 2;
+}
+#num9 {
+    grid-area: 5 / 3;
+}
+#multiply {
+    grid-area: 5 / 4;
+}
+#num4 {
+    grid-area: 6 / 1;
+}
+#num5 {
+    grid-area: 6 / 2;
+}
+#num6 {
+    grid-area: 6 / 3;
+}
+#substract {
+    grid-area: 6 / 4;
+}
+#num1 {
+    grid-area: 7 / 1;
+}
+#num2 {
+    grid-area: 7 / 2;
+}
+#num3 {
+    grid-area: 7 / 3;
+}
+#add {
+    grid-area: 7 / 4;
+}
+#negate {
+    grid-area: 8 / 1;
+}
+#num0 {
+    grid-area: 8 / 2;
+}
+#comma {
+    grid-area: 8 / 3;
+}
+#equal {
+    grid-area: 8 / 4;
+    background-color: #72A2C8;
+}
