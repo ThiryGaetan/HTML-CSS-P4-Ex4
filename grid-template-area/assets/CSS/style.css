@@ -3,7 +3,7 @@
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: 10vh 25vh repeat(6, 10vh);
     grid-template-areas:
-        "settings header header history"
+        "menu header header history"
         "result result result result"
         "percent ce c delete"
         "inverse power root divide"
@@ -29,8 +29,8 @@
     font-weight: bold;
     font-size: 20px;
 }
-#settings {
-    grid-area: settings;
+#menu {
+    grid-area: menu;
     justify-content: flex-start;
     padding-left: 20%;
     font-size: 30px;
